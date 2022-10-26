@@ -24,9 +24,9 @@ The DRTP is currently in the prototype stage which is comprehensively tested und
 1. Download TA-FRR source code from github and the recent version of ndnSIM from https://ndnsim.net/current/. 
 2. Simply copy all files of the TA-FRR source code under the ndnSIM-frr directory to the original ndnSIM directory in an override manner. 
 3. You need download BRITE topology generator from https://www.cs.bu.edu/brite/index.html, and synthesizes a router-level topology using BRITE
-3. You need to edit the link-failover-brite.ini file under the ndnSIM/ns-3 folder with the correct synthesized BRITE topology path, the output log path and some simulation parameters. 
-4. cd ndnSIM/ns-3 && ./waf --run scratch/link-failover-icc --command-template="%s link-failover-brite.ini 1 2". 
-5. Afterwards, you can find the simulation results under the SIM_LOG_DIR directory defined in the link-failover-brite.ini file.
+4. You need to edit the link-failover-brite.ini file under the ndnSIM/ns-3 folder with the correct synthesized BRITE topology path, the output log path and some simulation parameters. 
+5. cd ndnSIM/ns-3 && ./waf --run scratch/link-failover-icc --command-template="%s link-failover-brite.ini 1 2". 
+6. Afterwards, you can find the simulation results under the SIM_LOG_DIR directory defined in the link-failover-brite.ini file.
 
 **********************************************************************************
 We are looking forward to new project opportunity in making the TA-FRR growing up. 
